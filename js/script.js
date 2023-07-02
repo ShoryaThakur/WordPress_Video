@@ -9,6 +9,7 @@ btnEL.addEventListener("click", () => {
 });
 buttonEL.addEventListener("click", () => {
   videoEL.style.display = "none";
+  videoEL.pause();
   containerEL.style.display = "block";
   buttonEL.style.display = "none";
 });
